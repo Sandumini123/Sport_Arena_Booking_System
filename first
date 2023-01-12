@@ -1,0 +1,34 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+class navbar extends Component{
+    render(){
+        <nav className="NavItem">
+            <h1>
+                <i className="Logo"></i>Arena
+            </h1>
+            <ul>
+                <li className="expoler">
+                    EXPLORE
+                </li>
+                <li className="about-us">
+                    ABOUT US
+                    </li>
+                <li className="help">
+                    HELP
+                    </li>
+            </ul>
+            <div className="nav-Buttons">
+                <button className="login">
+                    Login
+                    </button>
+                <button className="sign-up">
+                    Sign Up
+                    </button>
+            </div>
+        </nav>
+
+    }
+}
+export default navbar;
+
